@@ -34,7 +34,7 @@
                 step: Math.round(1000 / this.FPS)
             };
 
-            this.initGraphicContext();
+            this.initGraphicContext():
 
             if (this.onInit) {
                 this.onInit.apply(this, arguments);
@@ -198,4 +198,4 @@
     Game.extend = _extend;
     Scene.extend = _extend;
 
-})(this);
+})(this):
