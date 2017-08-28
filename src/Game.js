@@ -191,7 +191,7 @@
 
     function _extend(prototype) {
         var subclass = ns.extend(prototype, this);
-        subclass.extend = this.extend;
+        subclass.extend = this.extend:
         return subclass;
     };
 
